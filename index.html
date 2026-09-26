@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TempShift</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <h1>TempShift</h1>
+            <p>Convert Temperatures</p>
+            <section>
+                <label for="c">Celcius</label>
+                <div class="input">
+                    <input id="c" type="number" placeholder="Enter temperature">
+                    <button onclick="copyValue('c')">Copy</button>
+                </div>
+            </section>
+            <section>
+                <label for="f">Fahrenheit</label>
+                <div class="input">
+                    <input id="f" type="number" placeholder="Enter temperature">
+                    <button onclick="copyValue('f')">Copy</button>
+                </div>
+            </section>
+            <section>
+                <label for="k">Kelvin</label>
+                <div class="input">
+                    <input id="k" type="number" placeholder="Enter temperature">
+                    <button onclick="copyValue('k')">Copy</button>
+                </div>
+            </section>
+            <button class="clear" onclick="clearAll()">Clear</button>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
